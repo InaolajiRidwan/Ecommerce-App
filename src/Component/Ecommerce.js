@@ -25,9 +25,7 @@ export const Ecommerce = () => {
     setFiltering(newSet);
   };
 
-  const change = (event) => {
-    setFilter(event.target.value);
-  };
+  // n
   const dataSearch = fakeapi.filter((item) => {});
 
   const hell = (event) => {
